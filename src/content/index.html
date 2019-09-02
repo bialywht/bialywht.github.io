@@ -1,48 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Site title</title>
-    <meta name="description" content="Description" />
 
-    <!-- Title -->
-    <meta property="og:title" content="" />
-    <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
-    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-    <meta property="og:url" content="" />
-    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Site title</title>
+  <meta name="description" content="Description" />
 
-    <link rel="manifest" href="manifest.json" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link
-      rel="apple-touch-icon"
-      sizes="192x192"
-      href="assets/pwa/icons/icon-192x192.png"
-    />
+  <!-- Title -->
+  <meta property="og:title" content="" />
+  <!-- OPTIONAL description. 2-4 sentences. -->
+  <meta property="og:description" content="" />
+  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
+  <meta property="og:url" content="" />
+  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+  <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
 
-    <link
-      <!-- rel="icon" -->
-      type="image/png"
-      href="assets/pwa/icons/icon-192x192.png"
-    />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/pwa/icons/icon-192x192.png" />
 
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <main>
-<section class="header">
-  <img src="#" class="header__image" alt="Logotyp.">
-  <h1 class="header__title">ZAKŁAD GOSPODARKI MIESZKANIOWEJ SP. Z O.O. W STZREGOMIU</h1>
-  <p class="header__description">Witamy na naszej stronie internetowej i zapraszamy do zapoznania się z udostępnionymi <a href="#" class="header__link">informacjami.</a>. 
-      W przypadku pytań zachęcamy do <a href="#" class="header__link">kontaktu</a> bezpośredniego lub pozostawienia wiadomości e-mail. Pozdrawiamy serdecznie!</p>
+  <link <!-- rel="icon" -->
+  type="image/png"
+  href="assets/pwa/icons/icon-192x192.png"
+  />
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <main>
+    <section class="header">
+      <img src="#" class="header__image" alt="Logotyp.">
+      <h1 class="header__title">ZAKŁAD GOSPODARKI MIESZKANIOWEJ SP. Z O.O. W STZREGOMIU</h1>
+      <p class="header__description">Witamy na naszej stronie internetowej i zapraszamy do zapoznania się z <a
+          href="#offer" class="header__link">ofertą.</a>.
+        W przypadku pytań zachęcamy do <a href="#" class="header__link">kontaktu</a> bezpośredniego lub pozostawienia
+        wiadomości e-mail. Pozdrawiamy serdecznie!</p>
       <a href="mailto:zgmspzoo@onet.pl" class="header__mail">zgmspzoo@onet.pl</a>
-</section>
+    </section>
 
-    </main>
-    <script src="js/main.js"></script>
-  </body>
+    <section id="offer" class="offer">
+      <h2 class="offer__title">Zakres świadczonych usług.</h2>
+      <section class="offer-scope">
+        <h3 class="offer-scope__title">Zarządzanie i administrowanie nieruchomościami</h3>
+        <ul class="offer-scope-list">
+            <li class="offer-scope-list__item"></li>
+            <li class="offer-scope-list__item"></li>
+            <li class="offer-scope-list__item"></li>
+            <li class="offer-scope-list__item"></li>
+            <li class="offer-scope-list__item"></li>
+          </ul>
+      </section>
+      <section class="offer-scope">
+          <h3 class="offer-scope__title">Obsługa finansowo - księgowa</h3>
+          <ul class="offer-scope-list">
+              <li class="offer-scope-list__item"></li>
+              <li class="offer-scope-list__item"></li>
+              <li class="offer-scope-list__item"></li>
+              <li class="offer-scope-list__item"></li>
+              <li class="offer-scope-list__item"></li>
+            </ul>
+        </section>
+        <section class="offer-scope">
+            <h3 class="offer-scope__title">Obsługa techniczna</h3>
+            <ul class="offer-scope-list">
+                <li class="offer-scope-list__item"></li>
+                <li class="offer-scope-list__item"></li>
+                <li class="offer-scope-list__item"></li>
+                <li class="offer-scope-list__item"></li>
+                <li class="offer-scope-list__item"></li>
+              </ul>
+          </section>
+          <section class="offer-scope">
+              <h3 class="offer-scope__title">Obsługa prawna</h3>
+              <ul class="offer-scope-list">
+                  <li class="offer-scope-list__item"></li>
+                  <li class="offer-scope-list__item"></li>
+                  <li class="offer-scope-list__item"></li>
+                  <li class="offer-scope-list__item"></li>
+                  <li class="offer-scope-list__item"></li>
+                </ul>
+            </section>
+            <section class="offer-scope">
+                <h3 class="offer-scope__title">Obsługa ubezpieczeniowa</h3>
+                <ul class="offer-scope-list">
+                    <li class="offer-scope-list__item"></li>
+                    <li class="offer-scope-list__item"></li>
+                    <li class="offer-scope-list__item"></li>
+                    <li class="offer-scope-list__item"></li>
+                    <li class="offer-scope-list__item"></li>
+                  </ul>
+              </section>
+
+    </section>
+    <section class="map">
+
+    </section>
+    <section class="footer">
+
+    </section>
+
+  </main>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
